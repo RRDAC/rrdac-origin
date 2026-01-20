@@ -2,6 +2,6 @@
 title: Home
 ---
 
-<script>
-  window.location.href = './01_RRDAC原典_コア'
-</script>
+# ようこそ、原典へ
+
+[ここをクリックして 01_RRDAC原典_コア を開く](./01_RRDAC原典_コア)
