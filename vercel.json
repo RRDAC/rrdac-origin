@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/01-core",
+      "destination": "/01core",
       "permanent": false
     }
   ]
