@@ -2,6 +2,8 @@
 title: Home
 ---
 
-# 接続テスト成功
+# RRDAC 原典
 
-[[core]]
+* [最短ルートで開く](core)
+* [絶対パスで開く](/core)
+* [Wikiリンクで開く[[core]]
