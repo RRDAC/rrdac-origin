@@ -29,12 +29,12 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#0b0c1f",       // 背景：さらに深く、落ち着いた真夜中の紺色
+          light: "#191a34",       // 背景：さらに深く、落ち着いた真夜中の紺色
           lightgray: "#1e1f3a",   // 検索バーなど：背景に馴染む暗い色
           gray: "#5a5d8a",        // 補助テキスト：落ち着いたブルーグレー
           darkgray: "#cfd1e6",    // 本文テキスト：少し青みのある白（目に優しい）
           dark: "#87f1f6",        // ページタイトル：★コンセプトカラーのティール
-          secondary: "#87f1f6",   // リンク：★コンセプトカラーのティール
+          secondary: "#5fb8bc",   // リンク：★コンセプトカラーのティール
           tertiary: "#52c2c9",    // ホバー時：少し濃いティール
           highlight: "rgba(135, 241, 246, 0.1)", // ハイライト：ティールの淡い光
           textHighlight: "#fff23688",
