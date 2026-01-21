@@ -7,8 +7,8 @@ title: RRDAC
 
 RRDAC原典（Mother）
 Version2.01　1/16/2026
+![[RRDACtopimg.png]]
 
----
 ## 🔗 RRDAC：ラダック
 
 Root & Ray Draconia Agape Core
