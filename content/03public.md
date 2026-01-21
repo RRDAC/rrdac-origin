@@ -11,14 +11,14 @@ dg-publish: true
 | バージョン | 2.01                        |
 | 最終更新  | 2026-01-21                  |
 | 内容    | RRDACの公共施設（医療・教育・コミュニティ・ケア） |
-[[01core#1章目次|→1章：RRDACコアへ]]　[[02Life#2章目次|→2章：生活へ]]　[[04guide#4章目次|→4章：ガイドへ]]　[[01core#→サイトマップへ|→サイトマップへ]]
+[[01core#1章目次|→1章：RRDACコアへ]]　[[02life#2章目次|→2章：生活へ]]　[[03public#3章目次|→3章：公共へ]]　[[04guide#4章目次|→4章：ガイドへ]]　[[01core#→サイトマップへ|→サイトマップへ]]
 ## 3章目次
 
-[[#【公共：Commons】]]
-[[#【医療：HHH（Holistic Health Home）】]]
-[[#【教育：Garden Campus】]]
-[[#【コミュニティセンター】]]
-[[#【DD：Descension Den（ディセンションケア）】]]
+[[#【公共：Commons】]]  
+[[#【医療：HHH（Holistic Health Home）】]]  
+[[#【教育：Garden Campus】]]  
+[[#【コミュニティセンター】]]  
+[[#【DD：Descension Den（ディセンションケア）】]]  
 
 ---
 

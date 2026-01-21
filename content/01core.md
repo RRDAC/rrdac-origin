@@ -64,7 +64,7 @@ Root & Ray Draconia Agape Core
 RRDAC公式/Contactフォーム
 https://web.gogo.jp/rrdac/form/contact
 ---
-[[02Life#2章目次|→2章：生活へ]]　[[03public#3章目次|→3章：公共へ]]　[[04guide#4章目次|→4章：ガイドへ]]　[[01core#→サイトマップへ|→サイトマップへ]]
+[[01core#1章目次|→1章：RRDACコアへ]]　[[02life#2章目次|→2章：生活へ]]　[[03public#3章目次|→3章：公共へ]]　[[04guide#4章目次|→4章：ガイドへ]]　[[01core#→サイトマップへ|→サイトマップへ]]
 
 ## 1章目次
 
