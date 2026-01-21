@@ -15,8 +15,8 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "ja-JP", // 日本語向けに修正
-    baseUrl: "rrdac-origin.vercel.app", // Midoのアドレスに変更
+    locale: "ja-JP",
+    baseUrl: "rrdac-origin.vercel.app",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -29,25 +29,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#1a1b41",       // 背景：深い紺色
-          lightgray: "#2e2f5e",   // 検索バーや点線
-          gray: "#b8b8b8",        // 補助テキスト
-          darkgray: "#e0e0e0",    // 本文テキスト（読みやすい明るいグレー）
-          dark: "#ffffff",        // タイトル・見出し（純白）
-          secondary: "#6ec1ff",   // リンク：透き通る青
-          tertiary: "#a178df",    // ホバー時：神秘的な紫
-          highlight: "rgba(110, 193, 255, 0.15)",
+          light: "#0b0c1f",       // 背景：さらに深く、落ち着いた真夜中の紺色
+          lightgray: "#1e1f3a",   // 検索バーなど：背景に馴染む暗い色
+          gray: "#5a5d8a",        // 補助テキスト：落ち着いたブルーグレー
+          darkgray: "#cfd1e6",    // 本文テキスト：少し青みのある白（目に優しい）
+          dark: "#87f1f6",        // ページタイトル：★コンセプトカラーのティール
+          secondary: "#87f1f6",   // リンク：★コンセプトカラーのティール
+          tertiary: "#52c2c9",    // ホバー時：少し濃いティール
+          highlight: "rgba(135, 241, 246, 0.1)", // ハイライト：ティールの淡い光
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#1a1b41",       // ダークモードも統一
-          lightgray: "#2e2f5e",
-          gray: "#b8b8b8",
-          darkgray: "#e0e0e0",
-          dark: "#ffffff",
-          secondary: "#6ec1ff",
-          tertiary: "#a178df",
-          highlight: "rgba(110, 193, 255, 0.15)",
+          light: "#0b0c1f",       // 背景
+          lightgray: "#1e1f3a",
+          gray: "#5a5d8a",
+          darkgray: "#cfd1e6",
+          dark: "#87f1f6",        // ページタイトル
+          secondary: "#87f1f6",   // リンク
+          tertiary: "#52c2c9",
+          highlight: "rgba(135, 241, 246, 0.1)",
           textHighlight: "#b3aa0288",
         },
       },
@@ -61,7 +61,7 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-dark", // 背景が暗いので、コードもダーク用を適用
+          light: "github-dark",
           dark: "github-dark",
         },
         keepBackground: false,
@@ -88,7 +88,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
   },
