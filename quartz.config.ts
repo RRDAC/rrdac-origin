@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "RRDAC",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    locale: "ja-JP", // 日本語向けに修正
+    baseUrl: "rrdac-origin.vercel.app", // Midoのアドレスに変更
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -29,25 +29,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#1a1b41",       // 背景：深い紺色
+          lightgray: "#2e2f5e",   // 検索バーや点線
+          gray: "#b8b8b8",        // 補助テキスト
+          darkgray: "#e0e0e0",    // 本文テキスト（読みやすい明るいグレー）
+          dark: "#ffffff",        // タイトル・見出し（純白）
+          secondary: "#6ec1ff",   // リンク：透き通る青
+          tertiary: "#a178df",    // ホバー時：神秘的な紫
+          highlight: "rgba(110, 193, 255, 0.15)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#1a1b41",       // ダークモードも統一
+          lightgray: "#2e2f5e",
+          gray: "#b8b8b8",
+          darkgray: "#e0e0e0",
+          dark: "#ffffff",
+          secondary: "#6ec1ff",
+          tertiary: "#a178df",
+          highlight: "rgba(110, 193, 255, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },
@@ -61,7 +61,7 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
+          light: "github-dark", // 背景が暗いので、コードもダーク用を適用
           dark: "github-dark",
         },
         keepBackground: false,
