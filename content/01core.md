@@ -769,9 +769,10 @@ RE:Linkは補助具ではなく、認識システムの一部として機能し�
 [[#1章目次|→目次へ]]
 
 ---
+
 ## RRDAC Nexus Prime 
 
-**～The Prime Connection Device
+##### ～The Prime Connection Device
 ## 【RE:Link（リリンク）】
 
 ![[relink00.webp]]
