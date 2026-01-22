@@ -112,7 +112,7 @@ https://web.gogo.jp/rrdac/form/contact
   - [[#（1）生命の樹（Tree Consciousness）]]
   - [[#（2）RayPillar（レイ・ピラー）]]
   - [[#（3）Aetherlight（エーテライト）]]
-  - [[#（4）エネルギーの循環図（RRDACの生命サイクル）]]
+  - [[#エネルギー循環図（RRDACの生命サイクル）]]
 - [[#【安全システム / Integrity System】]]
 - [[#【認識システム / Perception System】]]
 - [[#【RE:Link（リリンク）】]]

@@ -30,7 +30,7 @@ const config: QuartzConfig = {
       colors: {
         lightMode: {
           light: "#242442",       // 背景：さらに深く、落ち着いた真夜中の紺色
-          lightgray: "#2b2b47",   // 検索バーなど：背景に馴染む暗い色
+          lightgray: "#343454",   // 検索バーなど：背景に馴染む暗い色
           gray: "#5a5d8a",        // 補助テキスト：落ち着いたブルーグレー
           darkgray: "#cfd1e6",    // 本文テキスト：少し青みのある白（目に優しい）
           dark: "#cfd1e6",        // ページタイトル：★コンセプトカラーのティール
